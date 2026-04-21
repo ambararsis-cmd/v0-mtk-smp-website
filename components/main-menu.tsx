@@ -26,7 +26,7 @@ const menuItems = [
     description: "Pemangkatan, Pembagian. Faktorisasi Suku Banyak.",
     icon: "/icons/factorization.svg",
     color: "green" as const,
-    href: "#",
+    href: "/materi/aljabar-faktorisasi",
   },
   {
     title: "PERSAMAAN KUADRAT",
