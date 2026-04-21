@@ -13,7 +13,7 @@ export function Footer() {
             </h4>
             <p className="flex items-center justify-center gap-2 text-sm opacity-80 md:justify-start">
               <Mail className="h-4 w-4" />
-              mtk.info@gmail.com
+              sitinurambar.2022@mhs.unisda.ac.id
             </p>
           </div>
           <div>
