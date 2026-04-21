@@ -18,7 +18,7 @@ const menuItems = [
     description: "Satu & Dua Variabel. Menyelesaikan Masalah Kehidupan Nyata.",
     icon: "/icons/equation.svg",
     color: "orange" as const,
-    href: "#",
+    href: "/materi/persamaan-linear",
   },
   {
     title: "ALJABAR & FAKTORISASI",
