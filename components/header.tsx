@@ -31,12 +31,12 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="/daftar-isi" className="text-sm text-muted-foreground hover:text-primary">
                 Daftar Isi
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="/bantuan" className="text-sm text-muted-foreground hover:text-primary">
                 Bantuan
               </Link>
             </li>
@@ -88,7 +88,7 @@ export function Header() {
             </li>
             <li>
               <Link 
-                href="#" 
+                href="/daftar-isi" 
                 className="flex items-center gap-3 rounded-lg px-3 py-3 text-sm text-muted-foreground active:bg-muted"
                 onClick={() => setMobileMenuOpen(false)}
               >
@@ -98,7 +98,7 @@ export function Header() {
             </li>
             <li>
               <Link 
-                href="#" 
+                href="/bantuan" 
                 className="flex items-center gap-3 rounded-lg px-3 py-3 text-sm text-muted-foreground active:bg-muted"
                 onClick={() => setMobileMenuOpen(false)}
               >
