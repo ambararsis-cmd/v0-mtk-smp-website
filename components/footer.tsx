@@ -44,7 +44,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-white/20 pt-6 text-center">
           <p className="text-xs opacity-70">
-            © 2024 MTK SMP. Semua hak cipta dilindungi.
+            © 2024 MTK SMP/MTS. Semua hak cipta dilindungi.
           </p>
         </div>
       </div>
