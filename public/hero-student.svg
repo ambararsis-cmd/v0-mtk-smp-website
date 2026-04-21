@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240">
+  <!-- Background elements -->
+  <ellipse cx="150" cy="220" rx="100" ry="15" fill="#0095d8" opacity="0.3"/>
+  
+  <!-- Student body -->
+  <g transform="translate(100, 40)">
+    <!-- Book/Laptop -->
+    <rect x="20" y="120" width="80" height="60" rx="5" fill="#ffffff"/>
+    <rect x="25" y="125" width="70" height="45" rx="3" fill="#e3f2fd"/>
+    <text x="60" y="152" text-anchor="middle" fill="#2196f3" font-size="16" font-weight="bold">x + 2</text>
+    
+    <!-- Body -->
+    <path d="M50 70 Q50 100 30 130 L70 130 Q50 100 50 70" fill="#4fc3f7"/>
+    
+    <!-- Arms -->
+    <path d="M30 85 Q10 100 25 125" stroke="#ffb74d" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M70 85 Q90 100 75 125" stroke="#ffb74d" stroke-width="12" fill="none" stroke-linecap="round"/>
+    
+    <!-- Head -->
+    <circle cx="50" cy="45" r="35" fill="#ffb74d"/>
+    
+    <!-- Hair -->
+    <path d="M20 35 Q30 10 50 10 Q70 10 80 35 Q80 25 75 20 Q65 5 50 5 Q35 5 25 20 Q20 25 20 35" fill="#5d4037"/>
+    
+    <!-- Face -->
+    <circle cx="38" cy="42" r="4" fill="#333"/>
+    <circle cx="62" cy="42" r="4" fill="#333"/>
+    <path d="M45 55 Q50 62 55 55" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Blush -->
+    <ellipse cx="30" cy="50" rx="6" ry="4" fill="#ffab91" opacity="0.6"/>
+    <ellipse cx="70" cy="50" rx="6" ry="4" fill="#ffab91" opacity="0.6"/>
+  </g>
+  
+  <!-- Math symbols floating around -->
+  <text x="50" y="50" fill="#ffffff" font-size="20" font-weight="bold" opacity="0.8">∑</text>
+  <text x="250" y="70" fill="#ffffff" font-size="18" font-weight="bold" opacity="0.8">π</text>
+  <text x="40" y="180" fill="#ffffff" font-size="22" font-weight="bold" opacity="0.8">√</text>
+  <text x="260" y="160" fill="#ffffff" font-size="20" font-weight="bold" opacity="0.8">∞</text>
+  <text x="80" y="100" fill="#ffffff" font-size="16" font-weight="bold" opacity="0.6">+</text>
+  <text x="230" y="120" fill="#ffffff" font-size="16" font-weight="bold" opacity="0.6">×</text>
+</svg>

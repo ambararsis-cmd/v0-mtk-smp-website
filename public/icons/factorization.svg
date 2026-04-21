@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <!-- Main puzzle pieces representing factorization -->
+  
+  <!-- Piece 1 (top-left) -->
+  <path d="M10 10 L35 10 L35 25 C30 25 30 35 35 35 L35 40 L10 40 L10 25 C15 25 15 15 10 15 Z" fill="#81c784"/>
+  
+  <!-- Piece 2 (top-right) -->
+  <path d="M35 10 L70 10 L70 40 L35 40 L35 35 C40 35 40 25 35 25 Z" fill="#a5d6a7"/>
+  
+  <!-- Piece 3 (bottom) -->
+  <path d="M10 40 L70 40 L70 70 L10 70 Z" fill="#66bb6a"/>
+  
+  <!-- Math symbols -->
+  <text x="22" y="30" fill="#1b5e20" font-size="12" font-weight="bold">x²</text>
+  <text x="48" y="30" fill="#1b5e20" font-size="12" font-weight="bold">+2x</text>
+  <text x="40" y="58" text-anchor="middle" fill="#ffffff" font-size="11" font-weight="bold">x(x+2)</text>
+  
+  <!-- Arrow -->
+  <path d="M40 42 L40 48" stroke="#1b5e20" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1b5e20"/>
+    </marker>
+  </defs>
+</svg>

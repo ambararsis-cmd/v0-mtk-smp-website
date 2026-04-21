@@ -1,0 +1,61 @@
+"use client"
+
+import { MenuCard } from "./menu-card"
+
+const menuItems = [
+  {
+    title: "PENGENALAN ALJABAR",
+    subtitle: "(Kelas 7)",
+    description: "Variabel, Koefisien, Konstanta, Suku. Operasi Hitung Dasar (Penjumlahan, Pengurangan).",
+    icon: "/icons/algebra-intro.svg",
+    color: "blue" as const,
+  },
+  {
+    title: "PERSAMAAN & PERTIDAKSAMAAN LINEAR",
+    subtitle: "(Kelas 7/8)",
+    description: "Satu & Dua Variabel. Menyelesaikan Masalah Kehidupan Nyata.",
+    icon: "/icons/equation.svg",
+    color: "orange" as const,
+  },
+  {
+    title: "ALJABAR & FAKTORISASI",
+    subtitle: "(Kelas 8)",
+    description: "Pemangkatan, Pembagian. Faktorisasi Suku Banyak.",
+    icon: "/icons/factorization.svg",
+    color: "green" as const,
+  },
+  {
+    title: "PERSAMAAN KUADRAT",
+    subtitle: "(Kelas 9)",
+    description: "Akar-akar Persamaan, Rumus ABC, Grafik Fungsi Kuadrat.",
+    icon: "/icons/quadratic.svg",
+    color: "red" as const,
+  },
+]
+
+export function MainMenu() {
+  const handleButtonClick = (type: string, title: string) => {
+    alert(`Anda mengklik tombol ${type} untuk materi: ${title}`)
+  }
+
+  return (
+    <section className="py-12 lg:py-16">
+      <div className="mx-auto max-w-7xl px-4 lg:px-8">
+        <h2 className="mb-8 text-center text-xl font-bold text-foreground md:text-2xl">
+          Menu Utama Aljabar
+        </h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {menuItems.map((item) => (
+            <MenuCard
+              key={item.title}
+              {...item}
+              onMateriClick={() => handleButtonClick("Materi", item.title)}
+              onVideoClick={() => handleButtonClick("Video", item.title)}
+              onLatihanClick={() => handleButtonClick("Latihan", item.title)}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,94 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #f8f9fa;
+  --foreground: #333333;
+  --card: #ffffff;
+  --card-foreground: #333333;
+  --popover: #ffffff;
+  --popover-foreground: #333333;
+  --primary: #00acff;
+  --primary-foreground: #ffffff;
+  --secondary: #004c8c;
+  --secondary-foreground: #ffffff;
+  --muted: #f1f5f9;
+  --muted-foreground: #555555;
+  --accent: #0177c6;
+  --accent-foreground: #ffffff;
+  --destructive: #f44336;
+  --destructive-foreground: #ffffff;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #00acff;
+  --card-blue: #2196f3;
+  --card-orange: #ff9800;
+  --card-green: #4caf50;
+  --card-red: #f44336;
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: #1a1a2e;
+  --foreground: #f8f9fa;
+  --card: #16213e;
+  --card-foreground: #f8f9fa;
+  --popover: #16213e;
+  --popover-foreground: #f8f9fa;
+  --primary: #00acff;
+  --primary-foreground: #ffffff;
+  --secondary: #0f3460;
+  --secondary-foreground: #ffffff;
+  --muted: #1f4068;
+  --muted-foreground: #94a3b8;
+  --accent: #0177c6;
+  --accent-foreground: #ffffff;
+  --destructive: #f44336;
+  --destructive-foreground: #ffffff;
+  --border: #1f4068;
+  --input: #1f4068;
+  --ring: #00acff;
+}
+
+@theme inline {
+  --font-sans: var(--font-poppins), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-card-blue: var(--card-blue);
+  --color-card-orange: var(--card-orange);
+  --color-card-green: var(--card-green);
+  --color-card-red: var(--card-red);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
