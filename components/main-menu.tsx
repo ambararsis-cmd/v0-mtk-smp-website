@@ -51,12 +51,12 @@ export function MainMenu() {
   }
 
   return (
-    <section className="py-12 lg:py-16">
-      <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <h2 className="mb-8 text-center text-xl font-bold text-foreground md:text-2xl">
+    <section className="py-8 sm:py-12 lg:py-16">
+      <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-8">
+        <h2 className="mb-5 sm:mb-8 text-center text-lg sm:text-xl font-bold text-foreground md:text-2xl">
           Menu Utama Aljabar
         </h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:gap-6 lg:grid-cols-4">
           {menuItems.map((item) => (
             <MenuCard
               key={item.title}

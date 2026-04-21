@@ -11,13 +11,13 @@ export function Hero() {
         }} />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 py-12 lg:px-8 lg:py-16">
-        <div className="flex flex-col items-center justify-between gap-8 md:flex-row">
+      <div className="relative mx-auto max-w-7xl px-4 py-8 sm:py-12 lg:px-8 lg:py-16">
+        <div className="flex flex-col items-center justify-between gap-6 sm:gap-8 md:flex-row">
           <div className="text-center text-primary-foreground md:text-left">
-            <h1 className="text-2xl font-bold leading-tight md:text-3xl lg:text-4xl text-balance">
+            <h1 className="text-xl sm:text-2xl font-bold leading-tight md:text-3xl lg:text-4xl text-balance">
               MENU PEMBELAJARAN <br /> ALJABAR SMP
             </h1>
-            <p className="mt-4 text-base opacity-90 md:text-lg">
+            <p className="mt-3 sm:mt-4 text-sm sm:text-base opacity-90 md:text-lg">
               Kuasai Konsep Aljabar dengan Seru dan Mudah!
             </p>
           </div>
@@ -27,7 +27,7 @@ export function Hero() {
               alt="Ilustrasi Siswa Belajar"
               width={250}
               height={200}
-              className="h-40 w-auto md:h-48 lg:h-52"
+              className="h-32 sm:h-40 w-auto md:h-48 lg:h-52"
               priority
             />
           </div>
