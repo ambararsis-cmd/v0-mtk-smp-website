@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, Suspense } from "react"
 import { useSearchParams } from "next/navigation"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
@@ -9,7 +9,7 @@ import { BookOpen, PlayCircle, PenLine, ChevronRight, ChevronLeft, CheckCircle2,
 
 type TabType = "materi" | "video" | "latihan"
 
-export default function PengenalanAljabarPage() {
+function PengenalanAljabarContent() {
   const searchParams = useSearchParams()
   const [activeTab, setActiveTab] = useState<TabType>("materi")
 
@@ -91,6 +91,14 @@ export default function PengenalanAljabarPage() {
 
       <Footer />
     </div>
+  )
+}
+
+export default function PengenalanAljabarPage() {
+  return (
+    <Suspense fallback={<div className="flex min-h-screen items-center justify-center">Memuat...</div>}>
+      <PengenalanAljabarContent />
+    </Suspense>
   )
 }
 
