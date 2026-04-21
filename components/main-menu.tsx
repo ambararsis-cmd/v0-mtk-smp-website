@@ -34,7 +34,7 @@ const menuItems = [
     description: "Akar-akar Persamaan, Rumus ABC, Grafik Fungsi Kuadrat.",
     icon: "/icons/quadratic.svg",
     color: "red" as const,
-    href: "#",
+    href: "/materi/persamaan-kuadrat",
   },
 ]
 
