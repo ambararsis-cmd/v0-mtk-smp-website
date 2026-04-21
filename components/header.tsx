@@ -26,7 +26,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-primary">
+              <Link href="/tentang-kami" className="text-sm text-muted-foreground hover:text-primary">
                 Tentang Kami
               </Link>
             </li>
@@ -68,7 +68,7 @@ export function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="block text-sm text-muted-foreground hover:text-primary">
+              <Link href="/tentang-kami" className="block text-sm text-muted-foreground hover:text-primary">
                 Tentang Kami
               </Link>
             </li>
