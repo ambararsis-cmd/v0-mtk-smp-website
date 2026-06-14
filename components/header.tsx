@@ -14,7 +14,8 @@ export function Header() {
           <div className="flex h-9 w-9 sm:h-10 sm:w-10 items-center justify-center rounded-lg bg-primary text-lg sm:text-xl font-bold text-primary-foreground">
             π
           </div>
-          <span className="text-base sm:text-lg font-bold text-foreground">MTK SMP/MTS</span>
+          <span className="text-base sm:text-lg font-bold text-foreground">BELAJARAN
+ALJABAR</span>
         </Link>
 
         {/* Desktop Navigation */}
