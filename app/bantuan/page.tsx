@@ -36,7 +36,7 @@ const faqData = [
   },
   {
     question: "Materi apa saja yang tersedia?",
-    answer: "Saat ini tersedia materi Aljabar untuk siswa SMP/MTS yang mencakup: Pengenalan Aljabar (Kelas 7), Persamaan & Pertidaksamaan Linear (Kelas 7/8), Aljabar & Faktorisasi (Kelas 8), dan Persamaan Kuadrat (Kelas 9).",
+    answer: "Saat ini tersedia materi Aljabar untuk siswa Kelas 7 SMP/MTS yang mencakup: Pengenalan Aljabar dan Persamaan & Pertidaksamaan Linear.",
   },
   {
     question: "Apakah bisa diakses dari HP/Smartphone?",

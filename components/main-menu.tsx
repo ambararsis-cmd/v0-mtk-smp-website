@@ -14,27 +14,11 @@ const menuItems = [
   },
   {
     title: "PERSAMAAN & PERTIDAKSAMAAN LINEAR",
-    subtitle: "(Kelas 7/8)",
+    subtitle: "(Kelas 7)",
     description: "Satu & Dua Variabel. Menyelesaikan Masalah Kehidupan Nyata.",
     icon: "/icons/equation.svg",
     color: "orange" as const,
     href: "/materi/persamaan-linear",
-  },
-  {
-    title: "ALJABAR & FAKTORISASI",
-    subtitle: "(Kelas 8)",
-    description: "Pemangkatan, Pembagian. Faktorisasi Suku Banyak.",
-    icon: "/icons/factorization.svg",
-    color: "green" as const,
-    href: "/materi/aljabar-faktorisasi",
-  },
-  {
-    title: "PERSAMAAN KUADRAT",
-    subtitle: "(Kelas 9)",
-    description: "Akar-akar Persamaan, Rumus ABC, Grafik Fungsi Kuadrat.",
-    icon: "/icons/quadratic.svg",
-    color: "red" as const,
-    href: "/materi/persamaan-kuadrat",
   },
 ]
 

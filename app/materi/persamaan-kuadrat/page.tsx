@@ -36,7 +36,7 @@ function PersamaanKuadratContent() {
             <h1 className="text-2xl font-bold md:text-3xl lg:text-4xl">
               PERSAMAAN KUADRAT
             </h1>
-            <p className="mt-2 text-red-100">(Kelas 9)</p>
+            <p className="mt-2 text-red-100">(Kelas 7)</p>
             <p className="mt-4 max-w-2xl text-red-50">
               Akar-akar Persamaan, Rumus ABC, Grafik Fungsi Kuadrat.
             </p>
