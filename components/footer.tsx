@@ -12,7 +12,7 @@ export function Footer() {
               Kontak
             </h4>
             <p className="flex items-center justify-center gap-2 text-xs sm:text-sm opacity-80 md:justify-start break-all">
-              <Mail className="h-4 w-4 flex-shrink-0" />
+              <Mail className="h-4 w-4 shrink-0" />
               sitinurambar.2022@mhs.unisda.ac.id
             </p>
           </div>
