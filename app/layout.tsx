@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'MTK SMP/MTS - Menu Pembelajaran Aljabar',
+  title: 'BELAJAR ALJABAR - Menu Pembelajaran Aljabar',
   description: 'Kuasai Konsep Aljabar dengan Seru dan Mudah! Platform pembelajaran matematika interaktif untuk SMP/MTS.',
 }
 
