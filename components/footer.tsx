@@ -44,7 +44,7 @@ export function Footer() {
         </div>
         <div className="mt-6 sm:mt-8 border-t border-white/20 pt-4 sm:pt-6 text-center">
           <p className="text-[10px] sm:text-xs opacity-70">
-            © 2026 MTK SMP/MTS. Semua hak cipta dilindungi.
+            © 2026 BELAJAR ALJABAR. Semua hak cipta dilindungi.
           </p>
         </div>
       </div>
