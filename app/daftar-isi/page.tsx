@@ -21,7 +21,7 @@ const materiList = [
   {
     id: 2,
     title: "Persamaan & Pertidaksamaan Linear",
-    kelas: "Kelas 7/8",
+    kelas: "Kelas 7",
     description: "Satu & Dua Variabel. Menyelesaikan Masalah Kehidupan Nyata.",
     href: "/materi/persamaan-linear",
     color: "bg-card-orange",
@@ -32,32 +32,7 @@ const materiList = [
       "Penerapan dalam Kehidupan Nyata",
     ],
   },
-  {
-    id: 3,
-    title: "Aljabar & Faktorisasi",
-    kelas: "Kelas 8",
-    description: "Pemangkatan, Pembagian. Faktorisasi Suku Banyak.",
-    href: "/materi/aljabar-faktorisasi",
-    color: "bg-card-green",
-    topics: [
-      "Pemangkatan Aljabar",
-      "Pembagian Aljabar",
-      "Faktorisasi Bentuk Aljabar",
-      "Faktorisasi Suku Banyak",
-    ],
-  },
-  {
-    id: 4,
-    title: "Persamaan Kuadrat",
-    kelas: "Kelas 9",
-    description: "Akar-akar Persamaan, Rumus ABC, Grafik Fungsi Kuadrat.",
-    href: "/materi/persamaan-kuadrat",
-    color: "bg-card-red",
-    topics: [
-      "Bentuk Umum Persamaan Kuadrat",
-      "Menentukan Akar-akar Persamaan",
-      "Rumus ABC (Kuadratik)",
-      "Grafik Fungsi Kuadrat",
+]
     ],
   },
 ]

@@ -22,7 +22,7 @@ const quizCategories = [
   {
     id: 2,
     title: "Persamaan Linear",
-    kelas: "Kelas 7/8",
+    kelas: "Kelas 7",
     description: "PLSV, PLDV, Pertidaksamaan",
     color: "bg-[#ff9800]",
     totalSoal: 10,
@@ -30,35 +30,11 @@ const quizCategories = [
     bestScore: 70,
     href: "/materi/persamaan-linear?tab=latihan",
   },
-  {
-    id: 3,
-    title: "Aljabar & Faktorisasi",
-    kelas: "Kelas 8",
-    description: "Pemangkatan, Pembagian, Faktorisasi",
-    color: "bg-[#4caf50]",
-    totalSoal: 10,
-    completed: 3,
-    bestScore: 60,
-    href: "/materi/aljabar-faktorisasi?tab=latihan",
-  },
-  {
-    id: 4,
-    title: "Persamaan Kuadrat",
-    kelas: "Kelas 9",
-    description: "Rumus ABC, Grafik Fungsi Kuadrat",
-    color: "bg-[#f44336]",
-    totalSoal: 10,
-    completed: 0,
-    bestScore: 0,
-    href: "/materi/persamaan-kuadrat?tab=latihan",
-  },
 ]
 
 const recentAttempts = [
   { quiz: "Pengenalan Aljabar", score: 90, date: "Hari ini", status: "lulus" },
   { quiz: "Persamaan Linear", score: 70, date: "Kemarin", status: "lulus" },
-  { quiz: "Aljabar & Faktorisasi", score: 60, date: "2 hari lalu", status: "perlu perbaikan" },
-  { quiz: "Pengenalan Aljabar", score: 80, date: "3 hari lalu", status: "lulus" },
 ]
 
 export default function LatihanSoalPage() {

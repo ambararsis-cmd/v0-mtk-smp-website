@@ -18,30 +18,12 @@ const materiList = [
   },
   {
     title: "Persamaan Linear",
-    kelas: "Kelas 7/8",
+    kelas: "Kelas 7",
     description: "PLSV, PLDV, Pertidaksamaan",
     color: "bg-[#ff9800]",
     href: "/materi/persamaan-linear",
     icon: Puzzle,
     progress: 50,
-  },
-  {
-    title: "Aljabar & Faktorisasi",
-    kelas: "Kelas 8",
-    description: "Pemangkatan, Pembagian, Faktorisasi",
-    color: "bg-[#4caf50]",
-    href: "/materi/aljabar-faktorisasi",
-    icon: Calculator,
-    progress: 30,
-  },
-  {
-    title: "Persamaan Kuadrat",
-    kelas: "Kelas 9",
-    description: "Rumus ABC, Grafik Fungsi Kuadrat",
-    color: "bg-[#f44336]",
-    href: "/materi/persamaan-kuadrat",
-    icon: Brain,
-    progress: 10,
   },
 ]
 

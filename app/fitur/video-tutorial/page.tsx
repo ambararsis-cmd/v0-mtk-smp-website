@@ -34,7 +34,7 @@ const videos = [
     description: "Langkah-langkah menyelesaikan persamaan linear satu variabel",
     duration: "18:20",
     category: "Persamaan Linear",
-    kelas: "Kelas 7/8",
+    kelas: "Kelas 7",
     thumbnail: "/icons/equation.svg",
     color: "bg-[#ff9800]",
   },
@@ -44,53 +44,13 @@ const videos = [
     description: "Menyelesaikan SPLDV dengan dua metode berbeda",
     duration: "22:15",
     category: "Persamaan Linear",
-    kelas: "Kelas 7/8",
+    kelas: "Kelas 7",
     thumbnail: "/icons/equation.svg",
     color: "bg-[#ff9800]",
   },
-  {
-    id: 5,
-    title: "Sifat-sifat Eksponen",
-    description: "Memahami dan menerapkan sifat-sifat pangkat dalam aljabar",
-    duration: "14:50",
-    category: "Aljabar & Faktorisasi",
-    kelas: "Kelas 8",
-    thumbnail: "/icons/factorization.svg",
-    color: "bg-[#4caf50]",
-  },
-  {
-    id: 6,
-    title: "Faktorisasi Bentuk ax² + bx + c",
-    description: "Teknik memfaktorkan trinomial kuadrat",
-    duration: "20:30",
-    category: "Aljabar & Faktorisasi",
-    kelas: "Kelas 8",
-    thumbnail: "/icons/factorization.svg",
-    color: "bg-[#4caf50]",
-  },
-  {
-    id: 7,
-    title: "Rumus ABC (Kuadrat)",
-    description: "Menggunakan rumus ABC untuk mencari akar persamaan kuadrat",
-    duration: "16:40",
-    category: "Persamaan Kuadrat",
-    kelas: "Kelas 9",
-    thumbnail: "/icons/quadratic.svg",
-    color: "bg-[#f44336]",
-  },
-  {
-    id: 8,
-    title: "Menggambar Grafik Fungsi Kuadrat",
-    description: "Langkah-langkah menggambar parabola dengan tepat",
-    duration: "19:25",
-    category: "Persamaan Kuadrat",
-    kelas: "Kelas 9",
-    thumbnail: "/icons/quadratic.svg",
-    color: "bg-[#f44336]",
-  },
 ]
 
-const categories = ["Semua", "Pengenalan Aljabar", "Persamaan Linear", "Aljabar & Faktorisasi", "Persamaan Kuadrat"]
+const categories = ["Semua", "Pengenalan Aljabar", "Persamaan Linear"]
 
 export default function VideoTutorialPage() {
   const [searchQuery, setSearchQuery] = useState("")
