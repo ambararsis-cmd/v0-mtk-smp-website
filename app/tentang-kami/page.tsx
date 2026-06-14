@@ -23,10 +23,10 @@ export default function TentangKamiPage() {
             <div className="grid gap-8 sm:gap-12 lg:grid-cols-2 lg:items-center">
               <div className="order-2 lg:order-1">
                 <h2 className="text-xl sm:text-2xl font-bold text-foreground md:text-3xl">
-                  Selamat Datang di MTK SMP/MTS
+                  Selamat Datang di BELAJAR ALJABAR
                 </h2>
                 <p className="mt-3 sm:mt-4 text-sm sm:text-base leading-relaxed text-muted-foreground">
-                  MTK SMP/MTS adalah platform pembelajaran matematika online yang dirancang khusus untuk
+                  BELAJAR ALJABAR adalah platform pembelajaran matematika online yang dirancang khusus untuk
                   membantu siswa Sekolah Menengah Pertama dan Madrasah Tsanawiyah dalam memahami konsep-konsep
                   matematika dengan cara yang menyenangkan dan interaktif.
                 </p>
