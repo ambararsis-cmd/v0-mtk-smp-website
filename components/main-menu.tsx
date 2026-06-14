@@ -37,6 +37,15 @@ const menuItems = [
     href: "/game/roda-berputar",
     isGame: true,
   },
+  {
+    title: "KUIS ALJABAR",
+    subtitle: "(Kelas 7)",
+    description: "Kuis interaktif aljabar dengan 8 soal dan sistem penilaian otomatis.",
+    icon: "/icons/quiz-aljabar.png",
+    color: "red" as const,
+    href: "/game/kuis-aljabar",
+    isGame: true,
+  },
 ]
 
 export function MainMenu() {
