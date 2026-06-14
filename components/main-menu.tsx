@@ -32,7 +32,7 @@ const menuItems = [
     title: "RODA BERPUTAR",
     subtitle: "(Kelas 7)",
     description: "Game interaktif aljabar dengan roda berputar dan 4 pilihan jawaban.",
-    icon: "/icons/game.svg",
+    icon: "/icons/roda-berputar.png",
     color: "green" as const,
     href: "/game/roda-berputar",
     isGame: true,
