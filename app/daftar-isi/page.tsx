@@ -33,9 +33,6 @@ const materiList = [
     ],
   },
 ]
-    ],
-  },
-]
 
 export default function DaftarIsiPage() {
   return (
